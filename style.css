@@ -1,3 +1,7 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .top-container, .footer {
     background-color: #1F2937;
     color: #F9FAF8;
