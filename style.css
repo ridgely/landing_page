@@ -1,0 +1,11 @@
+.top-container, .footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    color:#1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
