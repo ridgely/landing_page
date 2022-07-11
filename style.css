@@ -56,9 +56,12 @@ h2 {
 
 .title-content .sign-up {
     background-color: #3882F6;
+    border-radius: 10px;
+    border-style: none;
     color: #F9FAF8;
     align-self: flex-start;
     margin-top: 10px;
+    padding: 10px 35px;
 }
 
 .fuji-img img {
