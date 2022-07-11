@@ -12,18 +12,27 @@ ul {
     gap: 16px;
 }
 
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
 .top-container, .footer {
     background-color: #1F2937;
     color: #F9FAF8;
 }
 
 .top-container, .information-container, .quote-container, .call-to-action, .footer {
-    padding: 0 450px;
+    padding: 0 420px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    margin: 0 0 100px;
 }
 
 .hero-content {
@@ -31,12 +40,28 @@ ul {
     justify-content: space-between;
 }
 
-button {
-    background-color: #3882F6;
-    color: #F9FAF8;
+.title-content {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
 }
 
-img {
+.title-content h2 {
+    margin-bottom: 0;
+}
+
+.title-content p {
+    margin: 0;
+}
+
+.title-content .sign-up {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    align-self: flex-start;
+    margin-top: 10px;
+}
+
+.fuji-img img {
     width: 700px;
 }
 
