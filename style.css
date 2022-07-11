@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: auto;
 }
 
 ul {
@@ -16,10 +17,27 @@ ul {
     color: #F9FAF8;
 }
 
+.top-container, .information-container, .quote-container, .call-to-action, .footer {
+    padding: 0 450px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 0 16px;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+img {
+    width: 700px;
 }
 
 .quote-container {
