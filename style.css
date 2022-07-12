@@ -50,6 +50,7 @@ h2 {
 
 .title-content h2 {
     margin-bottom: 0;
+    font-weight: 900;
 }
 
 .title-content p {
@@ -70,6 +71,18 @@ h2 {
 
 .fuji-img img {
     width: 700px;
+}
+
+.information-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.information-header h3 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
 }
 
 .quote-container {
