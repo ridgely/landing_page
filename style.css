@@ -81,7 +81,7 @@ button:active {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
+    margin: 100px auto;
 }
 
 .information-header h3 {
@@ -92,10 +92,14 @@ button:active {
 
 .information-img-subtext {
     display: flex;
+    gap: 30px;
 }
 
 .information-img-subtext img {
     width: 200px;
+    height: 300px;
+    border: 5px solid #3882F6;
+    border-radius: 15px;
 }
 
 .quote-container {
