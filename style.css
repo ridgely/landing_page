@@ -90,6 +90,10 @@ button:active {
     font-weight: 900;
 }
 
+.information-img-subtext img {
+    width: 200px;
+}
+
 .quote-container {
     background-color: #E5E7EB;
     color:#1F2937;
