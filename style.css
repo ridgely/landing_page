@@ -82,6 +82,7 @@ button:active {
     flex-direction: column;
     align-items: center;
     margin: 100px auto;
+    gap: 30px;
 }
 
 .information-header h3 {
@@ -100,6 +101,11 @@ button:active {
     height: 300px;
     border: 5px solid #3882F6;
     border-radius: 15px;
+}
+
+.img-subtext-item {
+    text-align: center;
+    width: 200px;
 }
 
 .quote-container {
