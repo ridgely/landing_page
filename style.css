@@ -20,6 +20,10 @@ h2 {
     font-size: 48px;
 }
 
+button:active {
+    box-shadow: 2px 2px 5px;
+}
+
 .top-container, .footer {
     background-color: #1F2937;
     color: #F9FAF8;
