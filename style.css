@@ -29,14 +29,17 @@ button:active {
     color: #F9FAF8;
 }
 
-.top-container, .information-container, .quote-container, .call-to-action, .footer {
-    padding: 0 550px;
+.top-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     margin: 0 0 100px;
+    gap: 1050px;
 }
 
 .hero-content {
@@ -175,4 +178,5 @@ button:active {
 .footer {
     display: flex;
     justify-content: center;
+    padding: 30px;
 }
