@@ -113,4 +113,8 @@ button:active {
     color:#1F2937;
     font-size: 36px;
     font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
 }
