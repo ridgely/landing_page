@@ -138,5 +138,8 @@ button:active {
     background-color: #3882F6;
     color: white;
     margin: 100px;
-    padding: 0 650px;
+    padding: 0 250px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
 }
