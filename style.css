@@ -138,8 +138,12 @@ button:active {
     background-color: #3882F6;
     color: white;
     margin: 100px;
-    padding: 0 250px;
+    padding: 50px 300px;
     display: flex;
     align-items: center;
     gap: 100px;
+}
+
+.description p {
+    margin: 0;
 }
