@@ -63,7 +63,7 @@ button:active {
     line-height: 2;
 }
 
-.title-content .sign-up {
+.button-sign-up {
     background-color: #3882F6;
     border-radius: 10px;
     border-style: none;
@@ -127,4 +127,16 @@ button:active {
     align-self: flex-end;
     font-style: normal;
     font-weight: bolder;
+}
+
+.call-to-action-container {
+    display: flex;
+    justify-content: center;
+}
+
+.call-to-action-box {
+    background-color: #3882F6;
+    color: white;
+    margin: 100px;
+    padding: 0 650px;
 }
