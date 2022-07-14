@@ -171,3 +171,8 @@ button:active {
     color: #F9FAF8;
     padding: 10px 35px;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
