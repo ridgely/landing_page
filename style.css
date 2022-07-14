@@ -129,21 +129,45 @@ button:active {
     font-weight: bolder;
 }
 
-.call-to-action-container {
+.newsletter-container {
     display: flex;
     justify-content: center;
 }
 
-.call-to-action-box {
+.newsletter-box {
     background-color: #3882F6;
     color: white;
     margin: 100px;
-    padding: 50px 300px;
+    padding: 50px 270px;
     display: flex;
     align-items: center;
     gap: 100px;
 }
 
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.description h3 {
+    margin: 0;
+}
+
+.call-to-action {
+    font-weight: bolder;
+    padding: 0;
+}
+
 .description p {
     margin: 0;
+}
+
+.newsletter-sign-up-button button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
+    color: #F9FAF8;
+    padding: 10px 35px;
 }
